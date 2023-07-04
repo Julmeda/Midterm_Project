@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+  background: #ffc107;
+  color: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Navbar */
+.custom-nav .collapse {
+  justify-content: flex-end;
+}
+/* End Navbar */
+
+/* Home */
+.home {
+  margin-top: 30px;
+}
+
+/* End home */
+
+/* Login */
+.login {
+  min-height: 100vh;
+  min-width: 179vh;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(253, 195, 5) 20%,
+    rgb(255, 193, 7) 56%,
+    rgb(245, 220, 78) 73%
+  );
+}
+
+.login h6 {
+  margin-top: 15px;
+}
+
+/* End Login */
+
+/* Register */
+.register {
+  min-height: 100vh;
+  min-width: 179vh;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(253, 195, 5) 20%,
+    rgb(255, 193, 7) 56%,
+    rgb(245, 220, 78) 73%
+  );
+}
+/* End register */
