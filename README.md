@@ -60,7 +60,7 @@ strapi start
 - Set up Strapi. Follow the on-screen instructions to complete the setup process. You'll be prompted to create an administrator account and configure your database.
 - Congratulations! You have successfully installed Strapi and set up a new Strapi project.
 ## Implementing the React.js Application
----Create the React.js User Login Form with Authentication Functionality---
+---Creating the Login Form with Validation and store the JWT Token---
 ```
 const initialUser = { password: "", identifier: "" };
 
@@ -133,6 +133,17 @@ const Login = () => {
 };
 
 export default Login;
+```
+export const storeUser = (data) => {
+  localStorage.setItem(
+    "user",
+    JSON.stringify({
+      username: data.user.username,
+      jwt: data.jwt,
+    })
+  );
+};
+```
 ```
 ---Create React.js Authenticated Route Protector Middleware---
 ```
