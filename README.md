@@ -134,6 +134,7 @@ const Login = () => {
 
 export default Login;
 ```
+```
 export const storeUser = (data) => {
   localStorage.setItem(
     "user",
@@ -143,7 +144,6 @@ export const storeUser = (data) => {
     })
   );
 };
-```
 ```
 ---Create Middleware to protect Authenticated Routes---
 ```
