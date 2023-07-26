@@ -6,9 +6,9 @@ https://drive.google.com/file/d/1oi-B-JUXWCosarohIKvG0SOHHqXtySTZ/view?usp=shari
 ## Prerequisites
 To begin working on this project, you'll require the installation of the following components on your computer:
 ```
-- Node.js
-- React.js
-- Strapi
+* Node.js
+* React.js
+* Strapi
 ```
 ## Installation
 ### 1. Install Node.js <br>
