@@ -134,7 +134,7 @@ const Login = () => {
 
 export default Login;
 ```
----This is the function where the JWT Token is stored---
+---This function is responsible for storing the JWT Token of the user who log in---
 ```
 export const storeUser = (data) => {
   localStorage.setItem(
