@@ -9,4 +9,4 @@ To begin working on this project, you'll require the installation of the followi
 -[NPM] or [Yarn]
 -[Git]
 -[Strapi]
--[React.js]```
+-[React.js]
