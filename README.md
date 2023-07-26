@@ -13,7 +13,7 @@ To begin working on this project, you'll require the installation of the followi
 -[React.js]
 ```
 ## Installation
-### 1. Install node.js <br>
+1. Install node.js <br>
 *To install Node.js on your computer, follow these steps:* <br>
 - Visit the official Node.js website
 - Download the appropriate installer based on your operating system (LTS version is recommended), and run the installer.
