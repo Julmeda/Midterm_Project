@@ -10,5 +10,5 @@ To begin working on this project, you'll require the installation of the followi
 -[Git]
 -[Strapi]
 -[React.js]
-
+```
 ## Installation
