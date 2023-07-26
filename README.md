@@ -13,7 +13,7 @@ To begin working on this project, you'll require the installation of the followi
 -[React.js]
 ```
 ## Installation
-1. Install node.js
+1. Install node.js <br>
     -To install Node.js on your computer, follow these steps:
 -To install Node.js on your computer, visit the official Node.js website, download the appropriate installer based on your operating system (LTS version is recommended), and run the installer. During installation, you can typically use the default settings. After installation, verify Node.js and npm (Node Package Manager) by checking their version numbers using the commands "node -v" and "npm -v" in the terminal or command prompt.
 
