@@ -1,63 +1,63 @@
+/* Import the Poppins font from Google Fonts with a specific font weight */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* Apply some global styles to all elements */
 *{
   padding: 0;
   margin:0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Use the Poppins font for all text */
 }
 
+/* Set styles for the body element */
 body {
 
-  background: #ffc107;
-  color: #ddd;
+  background: rgb(248, 247, 247); /* Set a light gray background color */
+  color: black; /* Set the text color to black */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-/* Navbar */
+/* Navbar styles*/
 .custom-nav .collapse {
-  justify-content: flex-end;
+  justify-content: flex-end; /* Align the navbar links to the right */
 }
-/* End Navbar */
 
-/* Home */
+
+/* Home styles*/
 .home {
-  margin-top: 30px;
+  margin-top: 30px; /* Add a top margin of 30px to the home section */
 }
 
-/* End home */
 
-/* Login */
+
+/* Login styles*/
 .login {
-  min-height: 100vh;
-  min-width: 179vh;
-  align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgb(253, 195, 5) 20%,
-    rgb(255, 193, 7) 56%,
-    rgb(245, 220, 78) 73%
+  min-height: 100vh; /* Set a minimum height of 100 viewport height for the login section */
+  min-width: 179vh; /* Set a minimum width of 179 viewport height for the login section */
+  align-items: center; /* Align the content of the login section to the center */
+  /* Create a linear gradient background with three color stops */
+  background: linear-gradient( 
+  90deg,
+  rgba(2,0,36,0) 10%, /* Transparent color at 10% position */
+  rgb(164, 168, 169) 80%,  /* Light gray color at 80% position */
+  rgb(114, 114, 121) 100% /* Dark gray color at 100% position */
   );
 }
 
 .login h6 {
-  margin-top: 15px;
+  margin-top: 15px;  /* Add a top margin of 15px to the <h6> element inside the login section */
 }
 
-/* End Login */
 
-/* Register */
+
+/* Register styles*/
 .register {
-  min-height: 100vh;
-  min-width: 179vh;
-  align-items: center;
+  min-height: 100vh; /* Set a minimum height of 100 viewport height for the register section */
+  min-width: 179vh; /* Set a minimum width of 179 viewport height for the register section */
+  align-items: center; /* Align the content of the register section to the center */
+  /* Create a linear gradient background with three color stops */
   background: linear-gradient(
-    90deg,
-    rgb(253, 195, 5) 20%,
-    rgb(255, 193, 7) 56%,
-    rgb(245, 220, 78) 73%
+  90deg,
+  rgba(2,0,36,0) 10%, /* Transparent color at 10% position */
+  rgb(164, 168, 169) 80%, /* Light gray color at 80% position */
+  rgb(114, 114, 121) 100% /* Dark gray color at 100% position */
   );
 }
-/* End register */
+
